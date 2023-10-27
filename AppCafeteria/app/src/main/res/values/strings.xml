@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AppCafeteria</string>
+
+    <string name="EditTextEmailLogin">Email</string>
+    <string name="EditTextSenhaLogin">Senha</string>
+    <string name="ButtonLogin">Logar</string>
+    <string name="TextViewCadastroLogin">Possui Conta?</string>
+    <string name="TextViewRecuperarContaLogin">Recuperar Conta</string>
+
+</resources>
