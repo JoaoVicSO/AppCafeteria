@@ -1,10 +1,21 @@
 <resources>
     <string name="app_name">AppCafeteria</string>
 
+    <!--Tela de Login-->
+
     <string name="EditTextEmailLogin">Email</string>
     <string name="EditTextSenhaLogin">Senha</string>
     <string name="ButtonLogin">Logar</string>
     <string name="TextViewCadastroLogin">Possui Conta?</string>
     <string name="TextViewRecuperarContaLogin">Recuperar Conta</string>
+
+    <!--Tela de Cadastro-->
+
+    <string name="TextViewCadastrarCadastro">Cadastrar Novo Usuário</string>
+    <string name="EditTextNomeCadastro">Nome</string>
+    <string name="EditTextEmailCadastro">Email</string>
+    <string name="EditTextSenhaCadastro">Senha</string>
+    <string name="TextViewRepeteSenhaCadastro">Repetir Senha</string>
+    <string name="ButtonCadastro">Cadastrar</string>
 
 </resources>
