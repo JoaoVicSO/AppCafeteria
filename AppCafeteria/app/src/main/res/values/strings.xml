@@ -18,4 +18,8 @@
     <string name="TextViewRepeteSenhaCadastro">Repetir Senha</string>
     <string name="ButtonCadastro">Cadastrar</string>
 
+    <!--Tela de Principal-->
+
+    <string name="ButtonDeslogar">Deslogar</string>
+
 </resources>
