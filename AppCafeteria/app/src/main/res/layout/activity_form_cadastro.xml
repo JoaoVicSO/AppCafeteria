@@ -108,11 +108,11 @@
 
   <androidx.appcompat.widget.AppCompatButton
       android:textAllCaps="false"
-      android:id="@+id/ButtonIdLogin"
+      android:id="@+id/ButtonIdCadastrar"
       style="@style/Button"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
-      android:text="@string/ButtonLogin"
+      android:text="@string/ButtonCadastro"
       app:layout_constraintEnd_toEndOf="@id/ContainerIdComponentsCadastro"
       app:layout_constraintStart_toStartOf="@id/ContainerIdComponentsCadastro"
       app:layout_constraintTop_toBottomOf="@id/EditTextIdSenha2Cadastro" />
