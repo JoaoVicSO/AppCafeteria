@@ -45,6 +45,9 @@ public class FormCadastro extends AppCompatActivity {
         this.gerenciarCadastro();
 
 
+
+
+
     } // metodo oncreate
 
     public void voltarLogin() {
