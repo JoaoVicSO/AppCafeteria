@@ -34,12 +34,12 @@ public class TelaPrincipal extends AppCompatActivity {
     protected void onStart() {
         super.onStart();
         usuarioID = FirebaseAuth.getInstance().getCurrentUser().getUid();
-        String email = FirebaseAuth.getInstance().getCurrentUser().getUid();
+        String email = FirebaseAuth.getInstance().getCurrentUser().getEmail();
         DocumentReference obj = db.collection("Usuarios").document(usuarioID);
         obj.addSnapshotListener(new EventListener<DocumentSnapshot>() {
             @Override
             public void onEvent(@Nullable DocumentSnapshot value, @Nullable FirebaseFirestoreException error) {
-                if(value !=null) {
+                if(value != null) {
                     nomeUsuario.setText(value.getString("nome"));
                     emailUsuario.setText(email);
 
